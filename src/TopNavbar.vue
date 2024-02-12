@@ -23,13 +23,13 @@ import GmailIcon from '@/components/icons/GmailIcon.vue'
     >
       <LinkedInIcon /> <span class="hidden sm:inline">LinkedIn</span>
     </GlassButton>
-    <GlassButton
+    <!-- <GlassButton
       as="link"
       href="mailto:williamp.olmos@gmail.com"
       target="_blank"
       class="flex gap-2 px-3 py-2 before:bg-gray-700"
     >
       <GmailIcon /> <span class="hidden sm:inline">Email me</span>
-    </GlassButton>
+    </GlassButton> -->
   </nav>
 </template>
