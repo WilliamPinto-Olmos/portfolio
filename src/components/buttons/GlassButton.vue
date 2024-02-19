@@ -10,8 +10,6 @@ const props = withDefaults(defineProps<GlassButtonProps>(), {
 })
 
 const componentTagName = computed(() => (props.as === 'link' ? 'a' : 'button'))
-
-console.log(props.as)
 </script>
 
 <template>
