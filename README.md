@@ -1,6 +1,6 @@
 # Portfolio
 
-This is the public repository of (my portfolio)[https://williampinto-olmos.github.io]
+This is the public repository of [my portfolio](https://williampinto-olmos.github.io)
 
 Built on Vue+TS for basic component organization and minimal reactivity.
 
