@@ -4,7 +4,7 @@
   <div
     class="absolute inset-0 -z-50"
     style="
-      background: url(/images/neon-bg-5.jpg) no-repeat center center fixed;
+      background: url(/images/neon-bg-5-compressed.jpg) no-repeat center center fixed;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
