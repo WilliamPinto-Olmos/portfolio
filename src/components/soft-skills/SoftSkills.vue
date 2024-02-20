@@ -16,12 +16,6 @@ onMounted(() => {
   <div ref="container" class="flex flex-wrap justify-center gap-10 animatecss">
     <SoftSkillCard
       class="max-[580px]:w-full"
-      title="Design patterns"
-      icon="Blocks"
-      animateFrom="right"
-    />
-    <SoftSkillCard
-      class="max-[580px]:w-full"
       title="Great communication"
       icon="AudioLines"
       animateFrom="left"
@@ -37,6 +31,12 @@ onMounted(() => {
       title="Self-learning"
       icon="BookOpenText"
       animateFrom="left"
+    />
+    <SoftSkillCard
+      class="max-[580px]:w-full"
+      title="Design patterns"
+      icon="Blocks"
+      animateFrom="right"
     />
     <SoftSkillCard
       class="max-[580px]:w-full"
