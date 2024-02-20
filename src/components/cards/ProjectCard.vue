@@ -37,7 +37,7 @@ defineProps<{
         class="flex justify-center gap-2 px-3 py-2 w-32"
         :class="buttonClass"
       >
-        <span class="hidden sm:inline">Explore</span>
+        Explore
       </GlassButton>
     </div>
   </div>
