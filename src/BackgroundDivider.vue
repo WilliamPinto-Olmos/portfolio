@@ -27,7 +27,7 @@
 <style scoped>
 .custom-shape-divider-bottom-1707712516 {
   position: absolute;
-  bottom: 0;
+
   left: 0;
   width: 100%;
   overflow: hidden;

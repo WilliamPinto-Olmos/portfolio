@@ -10,6 +10,7 @@ import SoftSkills from '@/components/soft-skills/SoftSkills.vue'
 import WavesDivider from './WavesDivider.vue'
 import TriangleDivider from '@/TriangleDivider.vue'
 import ProjectsList from '@/components/projects/ProjectsList.vue'
+import AboutMe from '@/components/about-me/AboutMe.vue'
 </script>
 
 <template>
@@ -21,7 +22,7 @@ import ProjectsList from '@/components/projects/ProjectsList.vue'
     <div class="relative h-screen w-full flex items-center justify-center">
       <GlassmorphicBackground />
       <BackgroundPattern />
-      <BackgroundDivider />
+      <BackgroundDivider class="bottom-0" />
 
       <div class="flex flex-col items-center px-2">
         <ProfileImageCard class="z-10 -mb-10" />
@@ -79,6 +80,11 @@ import ProjectsList from '@/components/projects/ProjectsList.vue'
 
         <ProjectsList class="mt-20" />
       </div>
+    </section>
+
+    <section id="about-me" class="relative mt-10 bg-slate-800">
+      <BackgroundDivider class="!rotate-0 top-0" />
+      <AboutMe class="pt-20 pb-32" />
     </section>
   </main>
 </template>

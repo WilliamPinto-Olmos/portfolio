@@ -32,7 +32,7 @@ function getSkillGroup(skill: HardSkill): string[] {
   <div class="flex flex-col gap-5">
     <div class="flex justify-end">
       <DropdownMenu>
-        <template #trigger> Group: all </template>
+        <template #trigger> Group: {{ groupFilter }} </template>
         <template #title> Group by </template>
 
         <DropdownItem

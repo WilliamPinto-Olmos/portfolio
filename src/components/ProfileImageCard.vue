@@ -1,6 +1,10 @@
+<script setup lang="ts">
+defineProps<{ classes?: string }>()
+</script>
+
 <template>
   <div>
-    <div class="card p-2">
+    <div class="card p-2" :class="classes">
       <img
         class="rounded-full w-full h-full"
         src="/images/profile-picture.jpg"
