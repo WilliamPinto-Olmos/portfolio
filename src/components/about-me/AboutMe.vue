@@ -44,13 +44,13 @@ import ProfileImageCard from '@/components/ProfileImageCard.vue'
           "
         >
           Hey! As you may have already seen above, my name is William Pinto. I have always enjoyed
-          building things and solving problems, that is why I became an Informatics Engineer, on my
-          journey I crossed my way with web development and since that very moment I loved it and
-          set the purpose of becoming a full stack web developer because it allows me to craft
-          elegant and responsive user interfaces, while building the logic that actual solves
-          problems and make things easier for people. I took the self-learning path since the very
-          beginning, and I'm going to stick with it to the very end; it can always be done in a
-          better way
+          building things and solving problems, which is why I became an Informatics Engineer.
+          During my journey, I discovered web development, and from that moment I fell in love with
+          it and I set the goal of becoming a full-stack web developer because it enables me to
+          craft elegant and responsive user interfaces while building the logic that actual solves
+          problems and make things easier for people. I have followed the self-learning path since
+          the very beginning, and I'm going to stick with it to the very end; there's always room
+          for improvement.
         </div>
       </div>
     </div>
