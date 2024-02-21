@@ -53,8 +53,6 @@ import ProfileImageCard from '@/components/ProfileImageCard.vue'
           better way
         </div>
       </div>
-
-      <SoftSkills />
     </div>
   </div>
 </template>
