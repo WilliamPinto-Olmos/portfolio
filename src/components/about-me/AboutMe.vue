@@ -82,7 +82,7 @@ const glassStyles = {
           as="link"
           href="/docs/Resume.pdf"
           download
-          class="flex items-center justify-center gap-2 px-3 py-2 before:bg-gray-700 min-w-[9rem]"
+          class="flex items-center justify-center gap-2 px-3 py-2 before:bg-rose-700 min-w-[9rem]"
         >
           <LucideIcon name="FileCode" /> <span>Resume</span>
         </GlassButton>
