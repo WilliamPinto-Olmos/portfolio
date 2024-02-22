@@ -81,7 +81,7 @@ const hardSkills: Array<HardSkill> = [
     tags: ['frontend', 'advanced']
   },
   {
-    name: 'Mysql/MariaDB',
+    name: 'MySQL',
     icon: 'Mysql',
     colors: { gradientStart: '#89F7FE', gradientEnd: '#66a6ff' },
     cardClass: '',

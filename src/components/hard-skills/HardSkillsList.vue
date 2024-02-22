@@ -10,13 +10,16 @@ defineProps<{
 
 <template>
   <div class="flex gap-10 flex-wrap">
-    <SkillCard
-      v-for="skill in skills"
-      :key="skill.name"
-      :class="skill.cardClass"
-      :circle-background="`radial-gradient(${skill.colors.gradientStart}, ${skill.colors.gradientEnd})`"
-    >
-      <Icon :name="skill.icon" :class="skill.iconClass" />
-    </SkillCard>
+    <div v-for="skill in skills" :key="skill.name" class="flex flex-col gap-2">
+      <SkillCard
+        :class="skill.cardClass"
+        :circle-background="`radial-gradient(${skill.colors.gradientStart}, ${skill.colors.gradientEnd})`"
+      >
+        <Icon :name="skill.icon" :class="skill.iconClass" />
+      </SkillCard>
+      <span class="text-sm font-semibold text-slate-700 capitalize text-center text-wrap w-16">{{
+        skill.name
+      }}</span>
+    </div>
   </div>
 </template>
