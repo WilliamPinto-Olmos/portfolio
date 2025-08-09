@@ -1,28 +1,29 @@
-name: Deploy portfolio to GitHub pages
-
-permissions:
-  contents: write
+name: Deploy Vue to Root GitHub Pages
 
 on:
   push:
     branches:
-      - main
+      - main # or your development branch
+
+permissions:
+  contents: write
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout 🛎️
+      - name: Checkout source repo
         uses: actions/checkout@v4
 
-      - name: Install and Build 🔧
+      - name: Install dependencies and build
         run: |
           npm install
           npm run build
 
-      - name: Deploy 🚀
+      - name: Deploy to root GitHub Pages repo
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: gh-pages
+          branch: main
           folder: dist
+          repository-name: williampinto-olmos/williampinto-olmos.github.io
+          token: ${{ secrets.GITHUB_TOKEN }}
