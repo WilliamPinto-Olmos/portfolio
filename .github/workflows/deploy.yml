@@ -3,7 +3,7 @@ name: Deploy Vue to Root GitHub Pages
 on:
   push:
     branches:
-      - main # or your development branch
+      - main # or your dev branch
 
 permissions:
   contents: write
@@ -17,8 +17,15 @@ jobs:
 
       - name: Install dependencies and build
         run: |
-          npm install
+          npm ci
           npm run build
+
+      - name: Verify build output
+        run: |
+          if [ ! -d "dist" ]; then
+            echo "❌ Build output folder 'dist' not found! Did the build fail?"
+            exit 1
+          fi
 
       - name: Deploy to root GitHub Pages repo
         uses: JamesIves/github-pages-deploy-action@v4
