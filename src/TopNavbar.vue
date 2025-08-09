@@ -3,6 +3,7 @@ import GlassButton from '@/components/buttons/GlassButton.vue'
 import LinkedInIcon from '@/components/icons/LinkedInIcon.vue'
 import GithubIcon from '@/components/icons/GithubIcon.vue'
 import GmailIcon from '@/components/icons/GmailIcon.vue'
+import LucideIcon from './components/icons/LucideIcon.vue'
 </script>
 
 <template>
@@ -22,6 +23,14 @@ import GmailIcon from '@/components/icons/GmailIcon.vue'
       class="flex gap-2 px-3 py-2 before:bg-blue-700"
     >
       <LinkedInIcon /> <span class="hidden sm:inline">LinkedIn</span>
+    </GlassButton>
+    <GlassButton
+      as="link"
+      href="/docs/Resume.pdf"
+      download
+      class="flex items-center justify-center gap-2 px-3 py-2 before:bg-rose-700"
+    >
+      <LucideIcon name="FileCode" /> <span class="hidden sm:inline">Resume</span>
     </GlassButton>
     <!-- <GlassButton
       as="link"

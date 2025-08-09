@@ -47,7 +47,7 @@ const glassStyles = {
           it and I set the goal of becoming a full-stack web developer because it allows me to craft
           elegant and responsive user interfaces while building the logic that actual solves
           problems. I have followed the self-learning path since the very beginning, and I'm going
-          to stick with it to the very end; there's always room for improvement.
+          to stick with it to the very end; there's always room for improvement!
         </div>
       </div>
 

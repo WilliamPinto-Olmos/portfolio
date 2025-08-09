@@ -19,12 +19,12 @@ import AboutMe from '@/components/about-me/AboutMe.vue'
   </header>
 
   <main>
-    <div class="relative h-screen w-full flex items-center justify-center">
+    <div class="relative min-h-screen w-full flex items-center justify-center">
       <GlassmorphicBackground />
       <BackgroundPattern />
       <BackgroundDivider class="bottom-0" />
 
-      <div class="flex flex-col items-center px-2">
+      <div class="flex flex-col items-center px-2 pt-24 min-[445px]:pt-0">
         <ProfileImageCard class="z-10 -mb-10" />
         <PresentationCard />
       </div>
@@ -36,12 +36,26 @@ import AboutMe from '@/components/about-me/AboutMe.vue'
         </h1>
 
         <p class="max-w-2xl mx-auto my-6 text-center text-gray-500">
-          Some of the technologies that I've used on different projects.
+          Some of the tech stack that I've worked with but not limited to. I'm always eager to learn
+          more and expand my skill set.
         </p>
 
         <section id="hard-skills">
           <HardSkills class="px-5 lg:px-10" />
         </section>
+
+        <p class="max-w-2xl mx-auto my-6 text-center text-gray-500">
+          And the list continues to grow as I explore new technologies and frameworks. Not every
+          technology I've worked with is listed here, maybe because some of them are for very
+          specific use cases or they already fall within some of the tech listed before. But here's
+          a brief list of non sorted nor categorized technologies that I also work with:
+        </p>
+
+        <p class="max-w-2xl mx-auto my-6 text-center text-gray-500">
+          Github, Gitlab, Bitbucket, Google Run Functions, Google Big Query, Google Cloud Storage,
+          Google Compute Engine, Firebase Auth, Firebase Hosting, Firebase Storage, Figma Dev, Jira,
+          Trello, Ollama, API Rest, Websockets, Prompting Engineering etc.
+        </p>
       </div>
     </section>
 
@@ -57,7 +71,7 @@ import AboutMe from '@/components/about-me/AboutMe.vue'
         </h1>
 
         <p class="max-w-2xl mx-auto my-6 text-center text-gray-100">
-          The little kind of things that can make the difference.
+          Essential for effective collaboration and communication in any team environment.
         </p>
 
         <SoftSkills />
@@ -73,9 +87,9 @@ import AboutMe from '@/components/about-me/AboutMe.vue'
         </h1>
 
         <p class="max-w-2xl mx-auto my-6 text-center text-gray-500">
-          Some of the projects that I am co-author of. They are more kind of systems focused on
-          intern management but they may show you that I have experience in web applications that
-          made it to production
+          Some of the public projects that I am co-author of and I'm allowed to publicly showcase.
+          Even then they are mostly focused on administration management but they may show you a
+          tease of my skills and experience.
         </p>
 
         <ProjectsList class="mt-20" />

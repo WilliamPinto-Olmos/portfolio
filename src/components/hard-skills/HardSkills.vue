@@ -12,7 +12,7 @@ const skills = computed<Map<string, HardSkill[]>>(() =>
   groupBy(hardSkills, (skill) => getSkillGroup(skill))
 )
 
-const experienceTags: Array<string> = ['basics', 'medium', 'strong', 'advanced']
+const experienceTags: Array<string> = ['fundamentals', 'strong', 'advanced', 'expert']
 const categoryTags: Array<string> = ['frontend', 'backend', 'devops']
 
 function getSkillGroup(skill: HardSkill): string[] {

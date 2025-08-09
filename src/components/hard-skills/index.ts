@@ -9,12 +9,28 @@ interface HardSkill {
 
 const hardSkills: Array<HardSkill> = [
   {
+    name: 'ReactJS',
+    icon: 'React',
+    colors: { gradientStart: '#daffff', gradientEnd: '#c0fffe' },
+    cardClass: '',
+    iconClass: 'w-8 h-8',
+    tags: ['frontend', 'expert']
+  },
+  {
     name: 'VueJS',
     icon: 'Vue',
     colors: { gradientStart: '#b0e633', gradientEnd: '#53ef7d' },
     cardClass: '',
     iconClass: 'w-8 h-8',
-    tags: ['frontend', 'advanced']
+    tags: ['frontend', 'expert']
+  },
+  {
+    name: 'ExpressJS',
+    icon: 'Express',
+    colors: { gradientStart: '#808080', gradientEnd: '#A9A9A9' },
+    cardClass: '',
+    iconClass: 'w-8 h-8',
+    tags: ['backend', 'expert']
   },
   {
     name: 'PHP',
@@ -22,39 +38,7 @@ const hardSkills: Array<HardSkill> = [
     colors: { gradientStart: '#B2B6FF', gradientEnd: '#9ea1e6' },
     cardClass: '',
     iconClass: 'w-8 h-8',
-    tags: ['backend', 'strong']
-  },
-  {
-    name: 'Typescript',
-    icon: 'Typescript',
-    colors: { gradientStart: '#2ec6d2', gradientEnd: '#629bde' },
-    cardClass: '',
-    iconClass: 'w-8 h-8',
-    tags: ['frontend', 'backend', 'medium']
-  },
-  {
-    name: 'Docker',
-    icon: 'Docker',
-    colors: { gradientStart: '#36dfed', gradientEnd: '#7ab7ff' },
-    cardClass: '',
-    iconClass: 'w-8 h-8',
-    tags: ['devops', 'medium']
-  },
-  {
-    name: 'Javascript',
-    icon: 'Javascript',
-    colors: { gradientStart: '#fff07a', gradientEnd: '#e6e94b' },
-    cardClass: '',
-    iconClass: 'w-8 h-8',
-    tags: ['frontend', 'backend', 'advanced']
-  },
-  {
-    name: 'InertiaJS',
-    icon: 'Inertia',
-    colors: { gradientStart: '#ed43f5', gradientEnd: '#a946cf' },
-    cardClass: 'w-16 h-16 !p-2',
-    iconClass: 'w-12 h-12',
-    tags: ['frontend', 'backend', 'strong']
+    tags: ['backend', 'advanced']
   },
   {
     name: 'Laravel Framework',
@@ -62,15 +46,57 @@ const hardSkills: Array<HardSkill> = [
     colors: { gradientStart: '#ff9fac', gradientEnd: '#cf4646' },
     cardClass: '',
     iconClass: 'w-8 h-8',
-    tags: ['backend', 'advanced']
+    tags: ['backend', 'expert']
   },
+  {
+    name: 'Google Cloud Platform',
+    icon: 'Gcp',
+    colors: { gradientStart: '#808080', gradientEnd: '#A9A9A9' },
+    cardClass: '',
+    iconClass: 'w-8 h-8',
+    tags: ['advanced', 'devops']
+  },
+  {
+    name: 'Docker',
+    icon: 'Docker',
+    colors: { gradientStart: '#36dfed', gradientEnd: '#7ab7ff' },
+    cardClass: '',
+    iconClass: 'w-8 h-8',
+    tags: ['devops', 'strong']
+  },
+  {
+    name: 'Typescript',
+    icon: 'Typescript',
+    colors: { gradientStart: '#2ec6d2', gradientEnd: '#629bde' },
+    cardClass: '',
+    iconClass: 'w-8 h-8',
+    tags: ['frontend', 'backend', 'strong']
+  },
+
+  {
+    name: 'Javascript',
+    icon: 'Javascript',
+    colors: { gradientStart: '#fff07a', gradientEnd: '#e6e94b' },
+    cardClass: '',
+    iconClass: 'w-8 h-8',
+    tags: ['frontend', 'backend', 'expert']
+  },
+  {
+    name: 'InertiaJS',
+    icon: 'Inertia',
+    colors: { gradientStart: '#ed43f5', gradientEnd: '#a946cf' },
+    cardClass: 'w-16 h-16 !p-2',
+    iconClass: 'w-12 h-12',
+    tags: ['frontend', 'backend', 'advanced']
+  },
+
   {
     name: 'Laravel livewire',
     icon: 'Livewire',
     colors: { gradientStart: '#ff758c', gradientEnd: '#FF7EB3' },
     cardClass: '',
     iconClass: 'w-8 h-8',
-    tags: ['backend', 'frontend', 'strong']
+    tags: ['backend', 'frontend', 'advanced']
   },
   {
     name: 'AlpineJS',
@@ -78,7 +104,7 @@ const hardSkills: Array<HardSkill> = [
     colors: { gradientStart: '#637bca', gradientEnd: '#455d96' },
     cardClass: '',
     iconClass: 'w-8 h-8',
-    tags: ['frontend', 'advanced']
+    tags: ['frontend', 'expert']
   },
   {
     name: 'MySQL',
@@ -86,7 +112,7 @@ const hardSkills: Array<HardSkill> = [
     colors: { gradientStart: '#89F7FE', gradientEnd: '#66a6ff' },
     cardClass: '',
     iconClass: 'w-8 h-8',
-    tags: ['backend', 'medium']
+    tags: ['backend', 'expert']
   },
   {
     name: 'MongoDB',
@@ -94,7 +120,7 @@ const hardSkills: Array<HardSkill> = [
     colors: { gradientStart: '#38ef7d', gradientEnd: '#11998e' },
     cardClass: '',
     iconClass: 'w-8 h-8',
-    tags: ['backend', 'basics']
+    tags: ['backend', 'strong']
   },
   {
     name: 'Linux',
@@ -102,7 +128,7 @@ const hardSkills: Array<HardSkill> = [
     colors: { gradientStart: '#000', gradientEnd: '#e9e4f0' },
     cardClass: '',
     iconClass: 'w-8 h-8',
-    tags: ['devops', 'medium']
+    tags: ['devops', 'expert']
   },
   {
     name: 'CSS',
@@ -110,7 +136,7 @@ const hardSkills: Array<HardSkill> = [
     colors: { gradientStart: '#0082c8', gradientEnd: '#667db6' },
     cardClass: '',
     iconClass: 'w-8 h-8',
-    tags: ['frontend', 'strong']
+    tags: ['frontend', 'advanced']
   },
   {
     name: 'Bootstrap CSS',
@@ -118,7 +144,7 @@ const hardSkills: Array<HardSkill> = [
     colors: { gradientStart: '#7f00ff', gradientEnd: '#e100ff' },
     cardClass: '',
     iconClass: 'w-8 h-8',
-    tags: ['frontend', 'strong']
+    tags: ['frontend', 'advanced']
   },
   {
     name: 'HTML',
@@ -126,15 +152,23 @@ const hardSkills: Array<HardSkill> = [
     colors: { gradientStart: '#fc4a1a', gradientEnd: '#f7b733' },
     cardClass: '',
     iconClass: 'w-8 h-8',
-    tags: ['frontend', 'advanced']
+    tags: ['frontend', 'expert']
   },
   {
-    name: 'ReactJS',
-    icon: 'React',
-    colors: { gradientStart: '#daffff', gradientEnd: '#c0fffe' },
+    name: 'Firebase',
+    icon: 'Firebase',
+    colors: { gradientStart: '#fff07a', gradientEnd: '#e6e94b' },
     cardClass: '',
     iconClass: 'w-8 h-8',
-    tags: ['frontend', 'medium']
+    tags: ['devops', 'backend', 'expert']
+  },
+  {
+    name: 'NodeJS',
+    icon: 'Node',
+    colors: { gradientStart: '#808080', gradientEnd: '#A9A9A9' },
+    cardClass: '',
+    iconClass: 'w-8 h-8',
+    tags: ['frontend', 'expert']
   },
   {
     name: 'TailwindCSS',
@@ -142,7 +176,7 @@ const hardSkills: Array<HardSkill> = [
     colors: { gradientStart: '#cbffff', gradientEnd: '#affffe' },
     cardClass: '',
     iconClass: 'w-8 h-8',
-    tags: ['frontend', 'advanced']
+    tags: ['frontend', 'expert']
   },
   {
     name: 'C++',
@@ -150,7 +184,7 @@ const hardSkills: Array<HardSkill> = [
     colors: { gradientStart: '#8496ff', gradientEnd: '#7381e2' },
     cardClass: '',
     iconClass: 'w-8 h-8',
-    tags: ['backend', 'basics']
+    tags: ['backend', 'fundamentals']
   },
   {
     name: 'C#',
@@ -158,7 +192,7 @@ const hardSkills: Array<HardSkill> = [
     colors: { gradientStart: '#d884ff', gradientEnd: '#bb73e2' },
     cardClass: '',
     iconClass: 'w-8 h-8',
-    tags: ['backend', 'basics']
+    tags: ['backend', 'fundamentals']
   },
   {
     name: 'Git',
@@ -166,7 +200,7 @@ const hardSkills: Array<HardSkill> = [
     colors: { gradientStart: '#ff6638', gradientEnd: '#df4e37' },
     cardClass: '',
     iconClass: 'w-8 h-8',
-    tags: ['devops', 'strong']
+    tags: ['devops', 'advanced']
   },
   {
     name: 'JQuery',
@@ -174,7 +208,7 @@ const hardSkills: Array<HardSkill> = [
     colors: { gradientStart: '#B2B6FF', gradientEnd: '#9ea1e6' },
     cardClass: '',
     iconClass: 'w-8 h-8',
-    tags: ['frontend', 'strong']
+    tags: ['frontend', 'advanced']
   }
 ]
 
